@@ -1,0 +1,33 @@
+/* Reset */
+
+* {
+    font-family: 'Larsseit', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* Background Color */
+
+#fluid-1 {
+    background-color: #0D0D2B;
+    background-image: url('../img/bg-img-1.svg'), url('../img/bg-img-1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom;  
+    background-size: auto;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ECF1F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3671E9;
+}
