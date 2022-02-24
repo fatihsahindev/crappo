@@ -1,0 +1,44 @@
+/* Header */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+header a {    
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0 15px;
+}
+
+header a:hover {    
+    color: #3671E9;
+    transition: 0.5s;
+}
+
+header .login {
+    padding-right: 1.5rem;
+    border-right: 1px solid white;
+}
+
+header .register {
+    margin-left: 1.5rem;
+    background-color: #3671E9;
+    border-radius: 2rem;
+    padding: 1rem 2rem;    
+    border: 2px solid transparent;
+}
+
+header .register:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
