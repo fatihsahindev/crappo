@@ -10,7 +10,7 @@ nav li {
     display: inline-block;
 }
 
-header a {    
+header a {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
@@ -18,7 +18,7 @@ header a {
     padding: 0 15px;
 }
 
-header a:hover {    
+header a:hover {
     color: #3671E9;
     transition: 0.5s;
 }
@@ -32,7 +32,7 @@ header .register {
     margin-left: 1.5rem;
     background-color: #3671E9;
     border-radius: 2rem;
-    padding: 1rem 2rem;    
+    padding: 1rem 2rem;
     border: 2px solid transparent;
 }
 
@@ -40,5 +40,69 @@ header .register:hover {
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+/* Hero */
+
+.hero p.friday {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.hero span {
+    color: #0D0D2B;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 2rem;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+    margin: -2rem 0 1.5rem;
+}
+
+.hero p {
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;    
+    margin-bottom: 3rem;
+}
+
+.hero a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 1rem;
+    background-color: #3671E9;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+}
+
+.hero a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 100px;
+    transition: 0.5s;
+}
+
+.hero img {
+    padding-left: 1.5rem;
+}
+
+.hero a:hover img {
+    padding-left: 3rem;
     transition: 0.5s;
 }
