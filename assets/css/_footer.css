@@ -1,7 +1,5 @@
 /* Footer */
 
-footer .social {}
-
 .fa-brands {
     color: #fff;
     margin-left: 2rem;
@@ -14,7 +12,7 @@ footer .social {}
 }
 
 footer img {
-    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 footer img:hover {
@@ -26,8 +24,29 @@ footer h6 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
+    padding-bottom: 1.5rem;
 }
 
-footer li {
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
     color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+footer a:hover {
+    color: #3671E9;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 32px;    
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 40px;
 }
