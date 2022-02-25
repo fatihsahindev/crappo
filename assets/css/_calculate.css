@@ -1,0 +1,86 @@
+/* Calculate */
+
+.calculate {
+    width: calc(60%);
+    height: calc(45%);
+    margin-top: -135px;
+    left: calc(20%);
+    border-radius: 1rem;
+    padding: 3rem;
+    position: absolute;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 20px 200px rgba(57, 23, 119, 0.05);
+}
+
+#calc {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 1rem 2rem;
+    background-color: #3671E9;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+}
+
+#calc:hover {
+    color: #3671E9;
+    background-color: transparent;
+    border: 2px solid #3671E9;
+    transition: 0.5s;
+}
+
+input#rate::-webkit-outer-spin-button,
+input#rate::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#rate {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    padding: 0.5rem 0;
+    margin-bottom: 6rem;
+    margin-right: 3rem;
+    background-color: transparent;
+    width: calc(28%);
+    height: 41px;
+}
+
+#hash {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    padding: 0.5rem;
+    margin-right: 3rem;
+    background-color: transparent;
+    width: calc(14%);
+    height: 41px;
+}
+
+.calculate p {
+    color: #3671E9;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.calculate h5 {
+    color: #0D0D2B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.calculate span {
+    color: #3671E9;
+}
+
+.calculate small {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
