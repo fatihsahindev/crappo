@@ -46,10 +46,6 @@
     transition: 0.5s;
 }
 
-.chart img {
-    max-width: 100%;
-}
-
 .chart .col-lg-6 h3 {
     margin-top: 100px;
 }
