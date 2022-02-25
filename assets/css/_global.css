@@ -17,6 +17,12 @@ a {
 
 #fluid-2 {
     background-color: #0D0D2B;
+    padding-bottom: 200px;
+}
+
+#fluid-3 {
+    background-color: #fff;
+    padding-top: 300px;
 }
 
 /* Scrollbar */

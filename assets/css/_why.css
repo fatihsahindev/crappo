@@ -42,3 +42,7 @@
     border: 2px solid #fff;
     transition: 0.5s;
 }
+
+.why .col-lg-10 {
+    margin-top: 200px;
+}
