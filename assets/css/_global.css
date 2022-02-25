@@ -8,6 +8,10 @@ a {
     text-decoration: none !important;
 }
 
+li {
+    list-style: none;
+}
+
 /* Background Color */
 
 #fluid-1 {
@@ -29,6 +33,10 @@ a {
 #fluid-4 {
     background-color: #2B076E;
     padding-top: 100px;
+}
+
+#fluid-5 {
+    background-color: #0D0D2B;
 }
 
 /* Scrollbar */

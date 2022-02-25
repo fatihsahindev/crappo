@@ -17,7 +17,7 @@
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
     padding: 1rem 2rem;
     background-color: #3671E9;
     border: 2px solid transparent;
@@ -64,7 +64,7 @@ input#rate::-webkit-inner-spin-button {
     color: #3671E9;
     font-size: 16px;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
 }
 
 .calculate h5 {

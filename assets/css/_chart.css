@@ -1,5 +1,9 @@
 /* Chart */
 
+.chart {
+    padding-bottom: 120px;
+}
+
 .chart h2 {
     color: #fff;
     font-size: 40px;
@@ -40,4 +44,59 @@
     background-color: transparent;
     border: 2px solid #fff;
     transition: 0.5s;
+}
+
+.chart img {
+    max-width: 100%;
+}
+
+.chart .col-lg-6 h3 {
+    margin-top: 100px;
+}
+
+/* Form */
+
+.chart .form {
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #3671E9;
+    margin-top: 70px;
+}
+
+.chart .form h2, p {
+    margin: 0;
+}
+
+#subscribe {
+    color: #0D0D2B;    
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+}
+
+#subscribe:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+#email {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    outline: none;
+    padding: 0.5rem 0;
+    margin-bottom: 6rem;
+    margin-right: 3rem;
+    background-color: transparent;
+    width: 370px;
+    height: 41px;
+}
+
+#email::placeholder {
+color: #fff;
 }
