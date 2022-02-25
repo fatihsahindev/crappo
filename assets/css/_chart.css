@@ -1,0 +1,43 @@
+/* Chart */
+
+.chart h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.chart h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+.chart p {
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 1.5rem 0 3rem;
+}
+
+.chart a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 1rem 2rem;
+    background-color: #3671E9;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+}
+
+.chart a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}

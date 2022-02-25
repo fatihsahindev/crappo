@@ -26,6 +26,11 @@ a {
     margin-bottom: 100px;
 }
 
+#fluid-4 {
+    background-color: #2B076E;
+    padding-top: 100px;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
