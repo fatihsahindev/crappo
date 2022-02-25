@@ -2,7 +2,6 @@
 
 .calculate {
     width: calc(60%);
-    height: calc(45%);
     margin-top: -135px;
     left: calc(20%);
     border-radius: 1rem;
@@ -83,4 +82,12 @@ input#rate::-webkit-inner-spin-button {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+@media screen and (max-width: 959.5px) {
+
+    .calculate {
+       display: none;
+}
+
 }

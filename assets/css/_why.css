@@ -29,7 +29,7 @@
 .why a {
     color: #fff;
     padding: 1rem 1.5rem;
-    border-radius: 2rem;    
+    border-radius: 2rem;
     border: 2px solid transparent;
     background-color: #3671E9;
     display: inline-block;
@@ -45,4 +45,19 @@
 
 .why .col-lg-10 {
     margin-top: 200px;
+}
+
+
+@media screen and (max-width: 1304.5px) {
+
+    .why .col-lg-3, .col-lg-4 {
+        width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: left !important;
+    }
+
+    .why img~div {
+        width: 200px;
+    }
 }

@@ -12,6 +12,10 @@ li {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Background Color */
 
 #fluid-1 {
@@ -53,4 +57,20 @@ li {
 
 ::-webkit-scrollbar-thumb {
     background: #3671E9;
+}
+
+/* Responsive */
+@media screen and (max-width: 1023.5px) {
+
+    * {
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    h1, h2, h3 {
+        font-size: 2rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
 }

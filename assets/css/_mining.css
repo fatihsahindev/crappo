@@ -45,7 +45,7 @@
     padding: 1rem;
     background-color: #3671E9;
     border-radius: 2rem;
-    display: none;    
+    display: none;
     border: 2px solid transparent;
 }
 
@@ -62,12 +62,12 @@
 /* Hover */
 
 .mining .col-lg-3:hover {
-    background-color: #2B076E;    
+    background-color: #2B076E;
     transition: 1s;
 }
 
 .mining .col-lg-3:hover p {
-    color: #fff;    
+    color: #fff;
     transition: 1s;
 }
 
@@ -92,7 +92,7 @@
     transition: 1s;
 }
 
-.mining a:hover img{
+.mining a:hover img {
     padding-left: 3rem;
     transition: 0.5s;
 }

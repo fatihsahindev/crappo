@@ -64,7 +64,7 @@
 }
 
 #subscribe {
-    color: #0D0D2B;    
+    color: #0D0D2B;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.5;
@@ -94,5 +94,26 @@
 }
 
 #email::placeholder {
-color: #fff;
+    color: #fff;
+}
+
+@media screen and (max-width: 1439.5px) {
+
+    .form div {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    #email::placeholder {
+        text-align: center;
+    }
+
+    #email {
+        max-width: 75%;
+        margin: 0 0 1rem;
+    }
+
+    .chart .col-lg-5 a {
+        margin-bottom: 1rem;
+    }
 }
