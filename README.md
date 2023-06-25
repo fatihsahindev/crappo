@@ -1,3 +1,3 @@
 # Crappo
 
-- [Live Demo](https://falovic.github.io/crappo)
+- [Live Demo](https://fatihsahindev.github.io/crappo)
